@@ -61,7 +61,7 @@ contract TalesRegistry is Ownable {
     }
 
     // --- Constructor ---
-    constructor() Ownable(msg.sender) {}
+    constructor() Ownable() {}
 
     // --- Core Functions ---
 
