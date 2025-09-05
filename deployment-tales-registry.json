@@ -1,0 +1,9 @@
+{
+  "network": "baseSepolia",
+  "timestamp": "2025-09-05T06:19:05.800Z",
+  "contracts": {
+    "TalesRegistry": "0xd428E1192615c76FFC9350B0E8A3A14ed6b63Ccd",
+    "TalesUserRegistry": "0x2aB233a671037Bb5403FC9F570E868504a33F3db",
+    "deployer": "0xdE02c1B542E4DA5c11b418F933A3CE3CcBF7ED57"
+  }
+}

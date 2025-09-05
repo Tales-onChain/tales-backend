@@ -1,0 +1,11 @@
+{
+  "network": "baseSepolia",
+  "timestamp": "2025-09-04T23:02:15.578Z",
+  "contract": {
+    "TalesUserRegistry": "0x2aB233a671037Bb5403FC9F570E868504a33F3db",
+    "deployer": "0xdE02c1B542E4DA5c11b418F933A3CE3CcBF7ED57",
+    "resolver": "0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41",
+    "baseDomainNode": "0x822c6cdaca03e7e96a197990a82a7b0fca56c42b0cec9a88d942545eb1ce98b2",
+    "transactionHash": "0xb7b9db67c287ef525defb110187a8f48832a51ada1fcfc007ced9b9e934e7c14"
+  }
+}

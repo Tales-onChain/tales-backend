@@ -1,0 +1,9 @@
+{
+  "network": "baseSepolia",
+  "timestamp": "2025-09-04T22:18:39.866Z",
+  "contract": {
+    "deployer": "0xdE02c1B542E4DA5c11b418F933A3CE3CcBF7ED57",
+    "resolver": "0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41",
+    "baseDomainNode": "0x822c6cdaca03e7e96a197990a82a7b0fca56c42b0cec9a88d942545eb1ce98b2"
+  }
+}
