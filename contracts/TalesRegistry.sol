@@ -19,6 +19,7 @@ contract TalesRegistry is Ownable {
     address public rewardManager;
     address public userRegistry;
 
+
     // --- Mappings ---
     mapping(uint256 => Tale) public tales;
     mapping(address => mapping(uint256 => bool)) public hasAppreciated;
@@ -378,6 +379,8 @@ contract TalesRegistry is Ownable {
     function setUserRegistry(address _userRegistry) external onlyOwner {
         userRegistry = _userRegistry;
     }
+
+
 }
 
 // Interface for RewardManager

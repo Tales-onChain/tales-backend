@@ -17,17 +17,11 @@ async function main() {
     return;
   }
 
-  const RESOLVER_ADDRESS = process.env.ENS_RESOLVER!;
-  const BASE_DOMAIN_NODE = process.env.BASE_DOMAIN_NODE!;
-
-  console.log("🔧 Using resolver:", RESOLVER_ADDRESS);
-  console.log("🔧 Using base domain node:", BASE_DOMAIN_NODE);
-
   try {
     // Deploy the contract with proper error handling
     console.log("⏳ Deploying contract...");
     const TalesUserRegistry = await ethers.getContractFactory("TalesUserRegistry");
-    const userRegistry = await TalesUserRegistry.deploy(RESOLVER_ADDRESS, BASE_DOMAIN_NODE);
+    const userRegistry = await TalesUserRegistry.deploy();
     
     // Wait for deployment to complete
     console.log("⏳ Waiting for deployment transaction...");

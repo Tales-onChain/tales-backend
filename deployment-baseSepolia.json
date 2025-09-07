@@ -1,0 +1,17 @@
+{
+  "network": "baseSepolia",
+  "deployer": "0xdE02c1B542E4DA5c11b418F933A3CE3CcBF7ED57",
+  "timestamp": "2025-09-06T13:23:53.580Z",
+  "contracts": {
+    "TalesRegistry": {
+      "address": "0x69B1a1CE5167b976d04EB91a57Cc5dE1613BD61A",
+      "deploymentHash": "0x12b83fd21b7948564566d7ed42560a98bc36f414187f712201856ac8af9772b7",
+      "timestamp": "2025-09-06T13:23:43.754Z"
+    },
+    "TalesUserRegistry": {
+      "address": "0x9B67E7da420E7DCbdF6dd56AE5d84A3d0d5034c5",
+      "deploymentHash": "0x1f60792773307feab4c7c2a8dcd2ac21f073edfb2115d66cbb0cd1a884b032c6",
+      "timestamp": "2025-09-06T13:23:53.579Z"
+    }
+  }
+}

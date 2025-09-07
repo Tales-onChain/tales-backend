@@ -14,12 +14,6 @@ async function main() {
   // Test 1: Check contract basics
   console.log("\n1. 📋 Checking contract basics...");
   
-  const baseDomainNode = await userRegistry.baseDomainNode();
-  console.log("Base domain node:", baseDomainNode);
-  
-  const resolverAddress = await userRegistry.ensResolver();
-  console.log("ENS resolver address:", resolverAddress);
-  
   const owner = await userRegistry.owner();
   console.log("Contract owner:", owner);
   console.log("✅ Is caller the owner?", owner === user.address);
